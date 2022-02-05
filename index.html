@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- подключение Inter через Гугл фонтс -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@800;900&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap" rel="stylesheet">
+	<!-- подкл через Плагин, убрать лишние шрифты -->
+	<link href="https://fonts.googleapis.com/css?family=Comforter:regular" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Source+Serif+4:600italic" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Monoton:regular" rel="stylesheet" />
+	<link rel="stylesheet" href="css/null.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>ДЗ к уроку 4. Шрифты и новые свойства</title>
+</head>
+
+<body>
+	<header class="header">
+		<h1 class="zagol">Классические эклеры</h1>
+		<nav class="menu">
+			<img width="500" src="img/ekl.jpg" alt="Эклеры">
+			<ul>
+				<li>
+					<a href="#vveden-zag" class="punkt-1">Введение</a>
+				</li>
+				<li>
+					<a href="#ingr-zag" class="punkt-2">Ингридиенты</a>
+					<ul>
+						<li>
+							<a href="#ingr-podzag-1" class="podpunkt-2-1">Для теста</a>
+						</li>
+						<li>
+							<a href="#ingr-podzag-2" class="podpunkt-2-2">Для заварного крема</a>
+						</li>
+						<li>
+							<a href="#ingr-podzag-3" class="podpunkt-2-3">Для глазури</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#posh-zag" class="punkt-3">Пошаговый рецепт приготовления</a>
+				</li>
+				<li>
+					<a href="#ukr-zag" class="punkt-4">Украшение</a>
+				</li>
+				<li>
+					<a href="#polez-zag" class="punkt-5">Полезный совет</a>
+				</li>
+				<li>
+					<a href="#inf-zag" class="punkt-6">Информация</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main class="main">
+		<div class="vveden">
+			<h2 id="vveden-zag">Введение</h2>
+			<p class="vveden-text">
+				Почему-то многие считают, что готовить эклеры
+				самостоятельно невероятно сложно. Это не совсем так, однако рецепт требует очень внимательного отношения к
+				каждому пункту. Здесь действительно нет мелочей! Попробуете всыпать муку в горячую воду на плите — текстура
+				теста будет неоднородной, да и вообще оно пригорит. Не дадите мучной массе остыть — яйца попросту заварятся,
+				в результате чего пирожные не получатся. <span>Есть и еще одна важная деталь.</span> Если после добавления
+				третьего яйца
+				тесто уже стало достаточно пластичным, четвертое яйцо следует добавлять постепенно, буквально по чайной
+				ложке.
+			</p>
+		</div>
+		<div class="ingr">
+			<h2 id="ingr-zag">Ингридиенты</h2>
+			<h3 id="ingr-podzag-1">Для теста</h3>
+			<ol class="ingr-testo">
+				<li>мука – 150 г</li>
+				<li>питьевая вода– 250 мл</li>
+				<li>соль – на кончике ножа</li>
+				<li>сливочное масло – 100 г</li>
+				<li>яйца – 3-4 шт.</li>
+			</ol>
+			<h3 id="ingr-podzag-2">Для заварного крема:</h3>
+			<ol class="ingr-krem">
+				<li>сливки жирностью 20% – 375 мл</li>
+				<li>яйца – 2 шт.</li>
+				<li>мука – 1 ст. л.</li>
+				<li>сахар – 180 г</li>
+				<li>ванильный сахар – 1 ч. л.</li>
+				<li>сливочное масло - 50-70 г</li>
+			</ol>
+			<h3 id="ingr-podzag-3">Для глазури</h3>
+			<ol class="ingr-ukr">
+				<li>белок одного яйца</li>
+				<li>сахарная пудра - 1 стакан</li>
+			</ol>
+		</div>
+		<div class="posh">
+			<h2 id="posh-zag">Пошаговый рецепт приготовления</h2>
+			<h3 class="posh-1">Шаг 1</h3>
+			<p class="posh-text">
+				Приготовьте тесто для классических эклеров. Муку просейте через мелкое сито. В небольшую
+				кастрюлю налейте воду, добавьте соль, масло и доведите до кипения на среднем огне.
+			</p>
+			<h3 class="posh-2">Шаг 2</h3>
+			<p class="posh-text">
+				Снимите кастрюлю с огня, чтобы кипение прекратилось. Постоянно помешивая лопаточкой, всыпьте муку и
+				вымешивайте до получения массы однородной консистенции легко отстающей от стенок и дна сотейника (около 30
+				секунд).
+			</p>
+			<h3 class="posh-3">Шаг 3</h3>
+			<p class="posh-text">
+				Поставьте кастрюлю с тестом для эклеров на слабый огонь и, постоянно помешивая лопаточкой, прогревайте до
+				образования белесой пленки на дне емкости. Переложите в глубокую миску и дайте остыть до теплого состояния.
+			</p>
+			<h3 class="posh-4">Шаг 4</h3>
+			<p class="posh-text">
+				В теплую массу добавьте яйцо и тщательно перемешайте до получения массы однородной консистенции. Таким же
+				образом вбейте все яйца. Тесто должно свободно спадать с лопатки. Если же провести по тесту эклеров шпажкой,
+				бороздка не затянется.
+			</p>
+			<h3 class="posh-5">Шаг 5</h3>
+			<p class="posh-text">
+				Духовку нагрейте до 200°C. Противень выстелите качественной бумагой для выпечки. Тесто переложите в
+				кондитерский мешок. Аккуратно отсадите из него на противень полоски теста, оставляя между ними расстояние не
+				менее 3 см, так как пирожные при выпекании увеличатся в объеме
+			</p>
+			<h3 class="posh-6">Шаг 6</h3>
+			<p class="posh-text">
+				Поместите противень с эклерами на средний уровень духовки. Выпекайте 20 минут. Затем уменьшите нагрев
+				духовки до 160°C (дверцу не открывайте!). Выпекайте еще 10 минут. Дайте остыть. При желании можно смазать
+				верх эклеров растопленным шоколадом, шоколадной или сахарной глазурью, или взбитыми с сахаром сливками.
+			</p>
+			<h3 class="posh-7">Шаг 7</h3>
+			<p class="posh-text">
+				Пока пекутся эклеры, приготовьте крем. Сливки влейте в ковшик и доведите до кипения. В отдельную миску
+				разбейте яйца, затем сверху просейте через мелкое сито муку. Взбейте венчиком или миксером.
+			</p>
+			<h3 class="posh-8">Шаг 8</h3>
+			<p class="posh-text">
+				Добавьте обычный и ванильный сахар, еще раз перемешайте. Непрерывно и энергично взбивая массу венчиком,
+				тонкой струйкой влейте горячие сливки. Перелейте в ковшик или кастрюлю. Варите при постоянном помешивании на
+				среднем огне до загустения.
+			</p>
+			<h3 class="posh-9">Шаг 9</h3>
+			<p class="posh-text">
+				Положите в горячий крем кусочки сливочного масла, перемешайте и дайте остыть. Эклеры наполните кремом через
+				сделанный сбоку надрез. Можно также сделать это с помощью кондитерского шприца через небольшие отверстия.
+			</p>
+		</div>
+		<div class="ukr">
+			<h2 id="ukr-zag">Украшение</h2>
+			<p class="ukr-text">
+				Белок одного яйца взбиваем до образования пены, затем просеиваем в него 1 стакан сахарной пудры и взбиваем
+				до получения однородной массы. Для ароматизации добавляем чайную ложку ликера или рома. Заполняем
+				кондитерский мешочек и наносим свежую глазурь.
+			</p>
+		</div>
+		<div class="polez">
+			<h2 id="polez-zag">Полезный совет</h2>
+			<p class="polez-text">
+				Если у вас нет специального кондитерского мешка, заварное тесто для эклеров можно просто поместить в плотный
+				полиэтиленовый пакет, затем отрезать уголок и выпустить массу на противень в виде брусочков толщиной 1-1,5
+				см.
+			</p>
+		</div>
+		<div class="imgg">
+			<img src="img/zastavka.png" alt="Заставка. Красивые пирожные">
+		</div>
+		<div class="inf">
+			<h2 id="inf-zag">Информация</h2>
+			<ul class="inf-text">
+				<li>Время приготовления: 1 ч</li>
+				<li>Количество: 20-25 шт.</li>
+				<li>Сложность приготовления: средняя</li>
+				<li><span>Калорийность: 237 ккал</span></li>
+			</ul>
+		</div>
+	</main>
+	<footer class="footer">
+		<p>Sources: https://www.gastronom.ru/recipe/11473/klassicheskie-eklery,</p>
+		<p>https://vpuzo.com/recepty-sladostey/eklery/55434-eklery-recept.html</p>
+	</footer>
+</body>
+
+</html>
